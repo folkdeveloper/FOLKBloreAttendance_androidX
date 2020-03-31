@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreFetchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="411dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="147dp"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Today's Date"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonFOLKID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:layout_weight="1"
+            android:onClick="select"
+            android:text="FOLK ID" />
+
+        <Button
+            android:id="@+id/buttonGuest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guest" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp" />
+
+    <Spinner
+        android:id="@+id/spinnerProgram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp" />
+
+    <Spinner
+        android:id="@+id/spinnerLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp" />
+
+    <Spinner
+        android:id="@+id/spinnerSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp" />
+
+    <TextView
+        android:id="@+id/textZone"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Select the Zone" />
+
+    <TextView
+        android:id="@+id/textProgram"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="130dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Select the Program" />
+
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Select the Category" />
+
+    <TextView
+        android:id="@+id/textLocation"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="270dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Select the Location" />
+
+    <TextView
+        android:id="@+id/textSession"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="340dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Select the Session" />
+
+</RelativeLayout>
